@@ -51,7 +51,7 @@ def draw_alpha():
 
     size = w, h = (400, 400)
     surface = pygame.Surface(size, pygame.SRCALPHA)
-    pygame.draw.circle(surface, colors['blue'], [60, 250], 40, 1)
+    pygame.draw.circle(surface, colors['blue'], [0, 0], 40, 1)
     pygame.draw.circle(surface, colors['blue'], [60, 100], 10, 1)
     pygame.draw.polygon(surface, (255, 0, 0, 64), [[60, 100], [100, 200], [300, 100]])
 
